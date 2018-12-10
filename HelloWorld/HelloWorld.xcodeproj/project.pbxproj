@@ -15,7 +15,6 @@
 		649AB39321BE29A00067DEA9 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649AB39221BE29A00067DEA9 /* NotificationCenter.framework */; };
 		649AB39621BE29A00067DEA9 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649AB39521BE29A00067DEA9 /* TodayViewController.swift */; };
 		649AB39921BE29A00067DEA9 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 649AB39721BE29A00067DEA9 /* MainInterface.storyboard */; };
-		649AB39D21BE29A00067DEA9 /* Hello World Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 649AB39021BE29A00067DEA9 /* Hello World Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,7 +24,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				649AB39D21BE29A00067DEA9 /* Hello World Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
