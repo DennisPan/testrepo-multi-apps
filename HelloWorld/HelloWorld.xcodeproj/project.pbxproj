@@ -18,16 +18,6 @@
 		649AB39D21BE29A00067DEA9 /* Hello World Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 649AB39021BE29A00067DEA9 /* Hello World Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		649AB3A221BE3F020067DEA9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 64935BC81F02DA2C006FEC38 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 649AB38F21BE29A00067DEA9;
-			remoteInfo = "Hello World Extension";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		649AB3A121BE29A00067DEA9 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -141,7 +131,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				649AB3A321BE3F020067DEA9 /* PBXTargetDependency */,
 			);
 			name = HelloWorld;
 			productName = HelloWorld;
@@ -244,14 +233,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		649AB3A321BE3F020067DEA9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 649AB38F21BE29A00067DEA9 /* Hello World Extension */;
-			targetProxy = 649AB3A221BE3F020067DEA9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		64935BD71F02DA2C006FEC38 /* Main.storyboard */ = {
